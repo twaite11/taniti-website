@@ -51,7 +51,7 @@ function App() {
       {/* Header with Navigation */}
       <header className="main-header">
         <div className="header-content">
-          <h1 className="logo">Taniti</h1>
+          <h1 className="logo">TANITI WELCOME TO PARADISE</h1>
           {/* Desktop Navigation */}
           <nav className="desktop-nav">
             <NavLink page="home" label="Home" />
