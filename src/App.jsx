@@ -91,7 +91,7 @@ function App() {
       
       {/* Footer */}
       <footer className="main-footer">
-        <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+        <p>&copy; Tyler Waite. All rights reserved.</p>
       </footer>
     </div>
   );
@@ -122,7 +122,7 @@ function HomePage({ setCurrentPage, icons }) {
         <h2 className="section-title">Experience Taniti</h2>
         <div className="featured-attractions-grid">
           <div className="card">
-            <img src="https://placehold.co/400x250/93c5fd/fff?text=Volcano" alt="Taniti Volcano" className="card-image" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg/1200px-Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg" alt="Taniti Volcano" className="card-image" />
             <div className="card-content">
               <h3 className="card-title">
                 <span className="icon red-icon">{icons.mountain}</span>
@@ -132,7 +132,7 @@ function HomePage({ setCurrentPage, icons }) {
             </div>
           </div>
           <div className="card">
-            <img src="https://placehold.co/400x250/86efac/fff?text=Rainforest" alt="Taniti Rainforest" className="card-image" />
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*jSOsZ_5aDLAsd7s0dTVtVA.jpeg" alt="Taniti Rainforest" className="card-image" />
             <div className="card-content">
               <h3 className="card-title">
                 <span className="icon green-icon">{icons.mapPin}</span>
@@ -142,7 +142,7 @@ function HomePage({ setCurrentPage, icons }) {
             </div>
           </div>
           <div className="card">
-            <img src="https://placehold.co/400x250/fde047/fff?text=Beach" alt="Taniti Beach" className="card-image" />
+            <img src="https://www.travelandleisure.com/thmb/b5ppUNeiY8BRQ2YCpF8M08FTp4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-mauritius-TROPVACAY0325-ab8fec1bafa94ef9881250098961ac68.jpg" alt="Taniti Beach" className="card-image" />
             <div className="card-content">
               <h3 className="card-title">
                 <span className="icon yellow-icon">{icons.sun}</span>
@@ -188,13 +188,13 @@ function HomePage({ setCurrentPage, icons }) {
 function ThingsToDoPage({ icons }) {
   const [filter, setFilter] = useState('all');
   const activities = [
-    { title: "Chartered Fishing Tours", location: "Merriton Landing", image: "https://placehold.co/400x250/60a5fa/fff?text=Fishing" },
-    { title: "Zip-lining", location: "Rainforest", image: "https://placehold.co/400x250/22c55e/fff?text=Zipline" },
-    { title: "Local History Museum", location: "Taniti City", image: "https://placehold.co/400x250/9ca3af/fff?text=Museum" },
-    { title: "Pubs & Microbrewery", location: "Merriton Landing", image: "https://placehold.co/400x250/a855f7/fff?text=Pub" },
-    { title: "Dancing at a new Dance Club", location: "Merriton Landing", image: "https://placehold.co/400x250/f472b6/fff?text=Club" },
-    { title: "Hiking the Volcano", location: "Volcano", image: "https://placehold.co/400x250/ef4444/fff?text=Hike" },
-    { title: "Snorkeling", location: "Beaches", image: "https://placehold.co/400x250/06b6d4/fff?text=Snorkel" },
+    { title: "Chartered Fishing Tours", location: "Merriton Landing", image: "https://yachts360.com/wp-content/uploads/2021/04/How-Much-Does-A-Fishing-Boat-Cost.jpg" },
+    { title: "Zip-lining", location: "Rainforest", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOlWADNsgrvNecs6ZM5gvuhHiHyXt2vX7sA&s" },
+    { title: "Local History Museum", location: "Taniti City", image: "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/2025-04/VC_Computer-History-Museum_SUPPLIED_1280x640.jpg.webp?itok=rgW9sW_V" },
+    { title: "Pubs & Microbrewery", location: "Merriton Landing", image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/8b/ae/83/47-hills-brewing-company.jpg?w=900&h=500&s=1" },
+    { title: "Dancing at a new Dance Club", location: "Merriton Landing", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcoQ3TksXMmoGGd-AVZZf41qbqIt4jmzCfw&s" },
+    { title: "Hiking the Volcano", location: "Volcano", image: "https://cdn.outsideonline.com/wp-content/uploads/migrated-images_parent/migrated-images_78/hikers-volcano-erupt_h.jpg" },
+    { title: "Snorkeling", location: "Beaches", image: "https://oaxacatraveltips.com/wp-content/uploads/2024/08/huatulco-snorkeling.jpg" },
   ];
 
   const filteredActivities = filter === 'all'
@@ -256,7 +256,7 @@ function LodgingPage({ icons }) {
       </div>
       <div className="lodging-grid">
         <div className="card">
-          <img src="https://placehold.co/400x250/ef4444/fff?text=Resort" alt="Four-Star Resort" className="card-image" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgyA5Ia3d8XGWzfwJ40joUxC3Sai9P2Jw6g&s" alt="Four-Star Resort" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Four-Star Grand Resort</h3>
             <p>Luxury accommodations with premium amenities and stunning views.</p>
@@ -264,7 +264,7 @@ function LodgingPage({ icons }) {
           </div>
         </div>
         <div className="card">
-          <img src="https://placehold.co/400x250/60a5fa/fff?text=Hotel" alt="Family-Owned Hotel" className="card-image" />
+          <img src="https://passport-cdn.kiwicollection.com/blog/drive/uploads/2022/11/Andaz-Costa-Rica-Resort-at-Peninsula-Papagayo-693x390.jpg" alt="Family-Owned Hotel" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Family-Owned Hotels</h3>
             <p>Cozy and comfortable stays with a personal touch.</p>
@@ -272,7 +272,7 @@ function LodgingPage({ icons }) {
           </div>
         </div>
         <div className="card">
-          <img src="https://placehold.co/400x250/a78bfa/fff?text=B&B" alt="Bed and Breakfast" className="card-image" />
+          <img src="https://tropicstar.com/wp-content/uploads/2025/02/5-1024x693.jpg" alt="Bed and Breakfast" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Bed and Breakfasts</h3>
             <p>A growing number of unique B&Bs for a home-away-from-home feel.</p>
@@ -280,7 +280,7 @@ function LodgingPage({ icons }) {
           </div>
         </div>
         <div className="card">
-          <img src="https://placehold.co/400x250/f9a8d4/fff?text=Hostel" alt="Inexpensive Hostel" className="card-image" />
+          <img src="https://media.vrbo.com/lodging/97000000/96210000/96206100/96206083/b6cfd565.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt="Inexpensive Hostel" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Inexpensive Hostel</h3>
             <p>An affordable option for solo travelers and backpackers.</p>
@@ -324,9 +324,6 @@ function TransportationPage() {
             <p>A small cruise ship docks in Yellow Leaf Bay for one night per week.</p>
           </div>
         </div>
-      </div>
-      <div className="map-placeholder">
-        <p>Image of a public bus route map would go here.</p>
       </div>
     </section>
   );
