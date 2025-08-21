@@ -189,10 +189,10 @@ function ThingsToDoPage({ icons }) {
   const [filter, setFilter] = useState('all');
   const activities = [
     { title: "Chartered Fishing Tours", location: "Merriton Landing", image: "https://yachts360.com/wp-content/uploads/2021/04/How-Much-Does-A-Fishing-Boat-Cost.jpg" },
-    { title: "Zip-lining", location: "Rainforest", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOlWADNsgrvNecs6ZM5gvuhHiHyXt2vX7sA&s" },
+    { title: "Zip-lining", location: "Rainforest", image: "https://cdnp.flypgs.com/files/Ekstrem_Sporlar/ziplineipte-kayma-nedir.jpg" },
     { title: "Local History Museum", location: "Taniti City", image: "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/2025-04/VC_Computer-History-Museum_SUPPLIED_1280x640.jpg.webp?itok=rgW9sW_V" },
     { title: "Pubs & Microbrewery", location: "Merriton Landing", image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/8b/ae/83/47-hills-brewing-company.jpg?w=900&h=500&s=1" },
-    { title: "Dancing at a new Dance Club", location: "Merriton Landing", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcoQ3TksXMmoGGd-AVZZf41qbqIt4jmzCfw&s" },
+    { title: "Dancing at a new Dance Club", location: "Merriton Landing", image: "https://media.timeout.com/images/102029523/750/422/image.jpg" },
     { title: "Hiking the Volcano", location: "Volcano", image: "https://cdn.outsideonline.com/wp-content/uploads/migrated-images_parent/migrated-images_78/hikers-volcano-erupt_h.jpg" },
     { title: "Snorkeling", location: "Beaches", image: "https://oaxacatraveltips.com/wp-content/uploads/2024/08/huatulco-snorkeling.jpg" },
   ];
